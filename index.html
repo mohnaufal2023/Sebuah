@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mooafit</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .hero-section {
+            padding: 50px 0;
+        }
+        .hero-text {
+            max-width: 500px;
+        }
+        .hero-text h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .btn-discover {
+            margin-top: 20px;
+        }
+        .fade-in-element {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+        .fade-in-element.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .category-card {
+            position: relative;
+            color: white;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .category-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .category-card span {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mooafit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nidaa</a>
+                </li>
+               
+        </div>
+    </nav>
+
+    <div class="container hero-section fade-in-element">
+        <div class="row">
+            <div class="col-md-6 order-md-1 hero-text">
+                <h1 style="margin: 0 10%; font-family: 'Poppins', sans-serif;"> Selamat datang untuk menikmati seni <span style="color: brown;">Nidaa..</span></h1>
+                <br>
+                <p style="margin: 0 10%; font-family: 'Poppins', sans-serif;">"Biarkan imajinasi bebas menari, menciptakan keindahan dalam setiap karya <span style="color: brown;">seni</span>, mengungkapkan jiwa dan perasaan tanpa batasan."</p>
+                <br>
+                <a href="love1.html" class="btn btn-dark btn-discover" style="margin: 0 10%; font-family: 'Poppins', sans-serif;">Tombol kejutan</a>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+                <img src="images/nida2.jpg" alt="Hero Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 fade-in-element">
+        <h2 class="text-center mb-4"><span style="color: brown;">Seni</span> menghidupkan imajinasi dalam warna</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="p-3">
+                    
+                    <h5>Leonardo da Vinci:</h5>
+                    <p>"Painting is a mental thing. Art is never finished, only abandoned." (Melukis adalah sesuatu yang mental. Seni tidak pernah selesai, hanya ditinggalkan.)</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="p-3">
+                    
+                    <h5>Vincent van Gogh</h5>
+                    <p>"I dream my painting, and then I paint my dream." (Saya memimpikan lukisan saya, lalu saya melukis mimpi saya.)</p>
+                </div>
+            </div>
+           
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="p-3">
+                    
+                    <h5>Pablo Picasso</h5>
+                    <p>"Art washes away from the soul the dust of everyday life." (Seni membersihkan jiwa dari debu kehidupan sehari-hari.)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 fade-in-element">
+        <h2 class="text-center mb-4">Lukisan terkenal <span style="color: brown;">Indonesia</span></h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-4 shadow">
+                    <img src="images/lukisan2.png" class="card-img-top" alt="Karya Seni 1" style="filter: brightness(80%);">
+                    <div class="card-body">
+                        <h5 class="card-title">The Ruins and The Piano</h5>
+                        <p class="card-text">Lukisan karya seniman Indonesia yang terkenal di dunia selanjutnya adalah "The Ruins and The Piano" yang dibuat oleh Sindudarsono Sudjojono.
+
+                            Dalam lukisan ini terdapat sebuah piano yang masih utuh tergeletak di tengah reruntuhan bencana alam. </p>
+                        <a href="love2.html" class="btn" style="background-color: brown; color: white;">Tombol kejutan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-4 shadow">
+                    <img src="images/lukisan3.png" class="card-img-top" alt="Karya Seni 1" style="filter: brightness(80%);">
+                    <div class="card-body">
+                        <h5 class="card-title">A View of Mount Megamendung</h5>
+                        <p class="card-text">"A View of Mount Megamendung" adalah salah satu karya ciptaan seniman ternama Indonesia, yaitu Raden Saleh.
+
+                            Sesuai dengan namanya, lukisan ini menggambarkan pemandangan alam di area Megamendung, Puncak, Bogor pada masa itu.
+                            
+                            Sebagai informasi, lukisan ini yang menaikkan status dan pamor pelukis asal Semarang ini.
+
+                            </p>
+                        <a href="story.html" class="btn" style="background-color: brown; color: white;">Tombol kejutan</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-4 shadow">
+                    <img src="images/lukisan1.png" class="card-img-top" alt="Karya Seni 3" style="filter: brightness(80%);">
+                    <div class="card-body">
+                        <h5 class="card-title">Ali Sadikin Pada Masa Kemerdekaan</h5>
+                        <p class="card-text">Lukisan terkenal di Indonesia selanjutnya adalah "Ali Sadikin Pada Masa Kemerdekaan" karya Hendra Gunawan.
+
+                            Lukisan ini mengungkapkan efek dari revolusioner dari sosok gubernur Ali Sadikin  terhadap seniman di Indonesia.</p>
+                            <a href="love1.html" class="btn" style="background-color: brown; color: white;">Tombol kejutan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian baru untuk kategori -->
+    <div class="container my-5 fade-in-element">
+        <h2 class="text-center mb-4"> <span style="color: brown;">Seni</span> dalam berbagai bahasa</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg1.png');">
+                    <span>Seni</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg2.png');">
+                    <span>Art</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg3.png');">
+                    <span>Kunst</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg4.png');">
+                    <span>Sztuka</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg5.png');">
+                    <span>Umenie</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="category-card" style="background-image: url('images/nidaimg6.png');">
+                    <span> Művészet</span>
+                </div>
+            </div>
+            
+             
+    </div>
+
+    <!-- Bagian baru untuk gambar slider -->
+    <div class="container my-5 fade-in-element" style="background-color: grey; padding: 20px; border-radius: 5px;">
+        <h2 class="text-center mb-4" style="color: white;"> Pernah mendengar Ukiyo Art</h2>
+        <div id="imageSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/ukiyo1.jpg" class="d-block w-100" alt="Slider Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ukiyo2.jpg" class="d-block w-100" alt="Slider Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ukiyo3.jpg" class="d-block w-100" alt="Slider Image 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#imageSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#imageSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <div class="text-center" style="color: white;">
+                <span>Semua telah dipesan untuk nidaa</span>
+               
+            </div>
+        </div>
+    </footer>
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Memastikan body fade-in saat dimuat
+        document.addEventListener("DOMContentLoaded", function() {
+            document.body.classList.add('show');
+        });
+
+        // Menggunakan Intersection Observer API untuk animasi muncul
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in-element').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
